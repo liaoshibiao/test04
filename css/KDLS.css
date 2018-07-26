@@ -1,0 +1,159 @@
+.sideslip{
+		width:100%;height:50px;border-bottom: 1px solid rgb(240,240,248);
+	}
+	.sideslip div{
+		width:15%;height:50px;background:url(../images/Select.png)no-repeat;
+		background-size:100%;margin-left:3%;
+	}
+	.pull-down{
+		width:96%;height:50px;margin:1% auto;
+		background:rgb(244,245,248);text-align: center;line-height:50px;
+		font-size:0.5rem;font-weight: bold;
+		
+	}
+	.pull-downText{
+		display: block;
+		width:30%;height:100%;float: left;
+	}
+	.interval{
+		float: left;
+	}
+	.pull-downAlert{
+		font-family:900;
+		display: block;
+		color:#CCCCCC;
+		width:30%;height:50px;
+		float: right;	
+	}
+	.Switch_box{
+		width:96%;height:50px;margin:2% auto;
+	}
+	.Switch_box label{
+		font-size:0.3rem;line-height: 50px;font-weight: bold;float: right;
+	}
+	.switch {
+            width: 57px;
+            height: 28px;
+            position: relative;
+            border: 1px solid #dfdfdf;
+            background-color: #fdfdfd;
+            box-shadow: #dfdfdf 0 0 0 0 inset;
+            border-radius: 20px;
+            background-clip: content-box;
+            display: inline-block;
+            -webkit-appearance: none;
+            user-select: none;
+            outline: none;
+            float: right;
+            margin:1%;
+        }
+        .switch:before {
+            content: '';
+            width: 26px;
+            height: 26px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 20px;
+            background-color: #fff;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+        }
+        .switch:checked {
+            border-color: rgb(76,156,250);
+            box-shadow: #64bd63 0 0 0 16px inset;
+            background-color: #64bd63;
+        }
+        .switch:checked:before {
+            left: 30px;
+        }
+        .switch.switch-anim {
+            transition: border cubic-bezier(0, 0, 0, 1) 0.4s, box-shadow cubic-bezier(0, 0, 0, 1) 0.4s;
+        }
+        .switch.switch-anim:before {
+            transition: left 0.3s;
+        }
+        .switch.switch-anim:checked {
+            box-shadow: #00BFFF 0 0 0 16px inset;
+            background-color: rgb(76,156,250);
+            transition: border ease 0.4s, box-shadow ease 0.4s, background-color ease 1.2s;
+        }
+        .switch.switch-anim:checked:before {
+            transition: left 0.3s;
+        }
+        	.Summations{
+		width:96%;height:100%;margin:0 auto;
+		
+	}
+	.Summations_Left{
+		background:#ff9f7f;
+	}
+	.Summations_Shop{
+		float: left;width:20%;height: 80px;text-align: center;
+	}
+	.Summations_Right{
+		background:#52d5d8;
+	}
+	.s_data{
+		width:40%;height: 80px;float: left;text-align: center;color:#FFFFFF;position:relative;
+	}
+	.s_data p{
+		font-size: 0.6rem;margin:10% 0;color:#FFFFFF;
+	}
+	.s_data span{
+		font-size: 0.3rem;color:#FFFFFF;
+	}
+	.Summations_Shop span{
+		font-size:0.8rem;line-height: 80px;font-weight:bold;
+	}
+	.Data_Left_list{
+		width:40%;float:left;text-align: center;line-height:30px;
+	}
+	.Data_Min_list{
+		width: 20%;float:left;text-align: center;line-height:30px;
+	}
+	.Data_right_list{
+		width: 40%;float:left;text-align: center;line-height:30px;
+	}
+	.Data_Left_list li{
+		width: 60%;height:30px;
+		background:#FF9F7F;
+		margin:2% 0;
+	}
+	.Data_Min_list li{
+		width: 100%;height:30px;
+		background:#FFFFFF;
+		margin:2% 0;
+	}
+	.Data_right_list li{
+		width:40%;height:30px;
+		background: #52D5D8;
+		margin:% 0;
+	}
+	.data_list_l{
+		width:40%;height:100%;float: left;text-align: center;line-height: 30px;position: relative;
+	}
+	.data_list_m{
+		width:20%;height:100%;float: left;text-align: center;line-height: 30px;
+	}
+	.data_list_r{
+		width:40%;height:100%;float: left;text-align: center;line-height: 30px;
+	}
+	.data_list_l ul li{
+		width:80%;height:30px;background:#ff9f7f;margin: 2% 0;float: right;clear: both;
+	}
+	.data_list_m ul li{
+		width:100%;height:30px;background:white;margin: 4% 0;float: left;
+	}
+	.data_list_r ul li{
+		width:80%;height:30px;background: #52d5d8;margin: 2% 0;float: left;clear: both;
+	}
+	.data_list_l ul li span{
+		display: block;
+		width:20px;height:30px;
+		position: absolute;left:70%;
+	}
+	.data_list_r ul li span{
+		display: block;
+		width:50px;height:30px;
+		position: absolute;left:60%;
+	}
